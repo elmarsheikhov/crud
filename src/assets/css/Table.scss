@@ -1,0 +1,57 @@
+.table_container {
+  table {
+    margin: 100px auto;
+    border: 1px solid #000;
+    thead {
+      tr {
+        th {
+          //   text-align: center;
+          width: 100px;
+          border: 1px solid #000;
+          padding: 10px;
+          text-transform: uppercase;
+          .trash_icon {
+            font-size: 28px;
+            position: relative;
+            cursor: pointer;
+
+            .trash_icon_badge {
+              position: absolute;
+              bottom: -9px;
+              right: -13px;
+              font-size: 14px;
+              background-color: red;
+              padding: 2px 6px;
+              border-radius: 50%;
+              color: #fff;
+              display: flex;
+              justify-content: center;
+              align-self: center;
+            }
+          }
+
+          //   .trash_icon::after {
+          //     content: "12";
+          //     bottom: -8px;
+          //     right: -14px;
+          //     position: absolute;
+          //     font-size: 12px;
+          //     padding: 3px;
+          //     background-color: red;
+          //     color: #fff;
+          //     border-radius: 50%;
+          //   }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          //   text-align: center;
+          border: 1px solid #000;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Elmar",
+      "job": "engineer",
+      "location": "Dubai",
+      "salary": "400"
+    },
+    {
+      "id": 2,
+      "name": "Perviz",
+      "job": "carpenter",
+      "location": "Moscow",
+      "salary": "500"
+    },
+    {
+      "name": "54yt5",
+      "job": "rhth",
+      "location": "htr",
+      "salary": "trhhtrr",
+      "id": 9
+    }
+  ]
+}
